@@ -1,4 +1,4 @@
-// Backtotop extension, https://github.com/GiovanniSalmeri/yellow-link
+// Backtotop extension, https://github.com/GiovanniSalmeri/yellow-backtotop
 
 "use strict";
 document.addEventListener("DOMContentLoaded", function() {
