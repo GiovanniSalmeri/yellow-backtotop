@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 link.style.visibility = "visible"; // accessibility
             } else {
                 link.style.opacity = "0";
-               link.style.visibility = "hidden"; // accessibility
+                link.style.visibility = "hidden"; // accessibility
             }
         });
     }
