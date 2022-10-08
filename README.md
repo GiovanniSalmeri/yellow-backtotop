@@ -16,4 +16,4 @@ The appearence of the link (e.g. the color) can be modified by tweaking the file
 
 ## Developer
 
-Giovanni Salmeri. [Get help](https://github.com/GiovanniSalmeri/yellow-backtotop/issues).
+Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/)
