@@ -12,7 +12,7 @@ The appearence of the link (e.g. the color) can be modified by tweaking the file
 
 ## Installation
 
-[Download extension](https://github.com/GiovanniSalmeri/yellow-backtotop/archive/master.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Download extension](https://github.com/GiovanniSalmeri/yellow-backtotop/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 ## Developer
 
