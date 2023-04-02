@@ -8,6 +8,22 @@ class YellowBacktotop {
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
+        $this->yellow->language->setDefaults([
+            "Language: de",
+            "BacktotopLabel: Zurück zum Anfang",
+            "Language: en",
+            "BacktotopLabel: Back to top",
+            "Language: es",
+            "BacktotopLabel: Volver arriba",
+            "Language: fr",
+            "BacktotopLabel: Retour au début",
+            "Language: it",
+            "BacktotopLabel: Torna all'inizio",
+            "Language: nl",
+            "BacktotopLabel: Terug naar boven",
+            "Language: pt",
+            "BacktotopLabel: Voltar ao topo",
+        ]);
     }
 
     // Handle page extra data
