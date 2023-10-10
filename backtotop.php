@@ -35,7 +35,7 @@ class YellowBacktotop {
             $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}backtotop.js\"></script>\n";
         }
         if ($name=="footer") {
-            $output = "<div><a href=\"#\" id=\"backtotop\">".$this->yellow->language->getTextHtml("backtotopLabel")."</a></div>\n";
+            $output = "<div><a href=\"#\" id=\"backtotop\" title=\"".$this->yellow->language->getTextHtml("backtotopLabel")."\" aria-label=\"".$this->yellow->language->getTextHtml("backtotopLabel")."\">".$this->yellow->language->getTextHtml("backtotopLabel")."</a></div>\n";
         }
         return $output;
     }
