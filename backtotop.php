@@ -2,7 +2,7 @@
 // Backtotop extension, https://github.com/GiovanniSalmeri/yellow-backtotop
 
 class YellowBacktotop {
-    const VERSION = "0.8.20";
+    const VERSION = "0.8.21";
     public $yellow;         // access to API
     
     // Handle initialisation

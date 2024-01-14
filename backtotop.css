@@ -15,5 +15,4 @@ a#backtotop {
     visibility: hidden;
     transition: opacity 500ms, visibility 500ms;
     -webkit-transition: opacity 500ms, visibility 500ms;
-    --screens: 1; /* vertical scroll before the link appears */
 }
