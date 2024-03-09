@@ -9,6 +9,8 @@ class YellowBacktotop {
     public function onLoad($yellow) {
         $this->yellow = $yellow;
         $this->yellow->language->setDefaults([
+            "Language: cs",
+            "BacktotopLabel: Zpět nahoru",
             "Language: de",
             "BacktotopLabel: Zurück zum Anfang",
             "Language: en",
@@ -23,6 +25,8 @@ class YellowBacktotop {
             "BacktotopLabel: Terug naar boven",
             "Language: pt",
             "BacktotopLabel: Voltar ao topo",
+            "Language: sv",
+            "BacktotopLabel: Tillbaka till toppen",
         ]);
     }
 
