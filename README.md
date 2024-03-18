@@ -1,5 +1,5 @@
-Backtotop 0.8.22
-=================
+# Backtotop 0.8.22
+
 Back-to-top link.
 
 <p align="center"><img src="SCREENSHOT.png" alt="Screenshot"></p>
