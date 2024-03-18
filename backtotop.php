@@ -8,7 +8,7 @@ class YellowBacktotop {
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->language->setDefaults([
+        $this->yellow->language->setDefaults(array(
             "Language: cs",
             "BacktotopLabel: Zpět nahoru",
             "Language: de",
@@ -27,7 +27,7 @@ class YellowBacktotop {
             "BacktotopLabel: Voltar ao topo",
             "Language: sv",
             "BacktotopLabel: Tillbaka till toppen",
-        ]);
+        ));
     }
 
     // Handle page extra data
