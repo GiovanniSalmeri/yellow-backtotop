@@ -1,4 +1,4 @@
-Backtotop 0.8.21
+Backtotop 0.8.22
 =================
 Back-to-top link.
 
