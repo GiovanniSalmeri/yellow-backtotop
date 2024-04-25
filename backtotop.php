@@ -2,7 +2,7 @@
 // Backtotop extension, https://github.com/GiovanniSalmeri/yellow-backtotop
 
 class YellowBacktotop {
-    const VERSION = "0.8.22";
+    const VERSION = "0.9.1";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -34,9 +34,9 @@ class YellowBacktotop {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $extensionLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreExtensionLocation");
-            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}backtotop.css\" />\n";
-            $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}backtotop.js\"></script>\n";
+            $assetLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreAssetLocation");
+            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$assetLocation}backtotop.css\" />\n";
+            $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$assetLocation}backtotop.js\"></script>\n";
         }
         if ($name=="footer") {
             $output = "<div><a href=\"#\" id=\"backtotop\" title=\"".$this->yellow->language->getTextHtml("backtotopLabel")."\" aria-label=\"".$this->yellow->language->getTextHtml("backtotopLabel")."\">".$this->yellow->language->getTextHtml("backtotopLabel")."</a></div>\n";
