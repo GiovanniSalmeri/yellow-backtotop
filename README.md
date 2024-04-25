@@ -12,7 +12,7 @@ Back-to-top link.
 
 This extension puts a back-to-top link on all pages of the site. The link is shown when the page is scrolled down.
 
-If you want to customise the link with CSS, edit the files in your `system/themes` folder.
+If you want to customise the link with CSS, write a `backtotop.css` file and put it into your `system/themes` folder.
 
 ## Developer
 
