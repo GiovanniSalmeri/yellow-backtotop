@@ -2,7 +2,7 @@
 // Backtotop extension, https://github.com/GiovanniSalmeri/yellow-backtotop
 
 class YellowBacktotop {
-    const VERSION = "0.9.1";
+    const VERSION = "1.0.0";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -35,8 +35,8 @@ class YellowBacktotop {
         $output = null;
         if ($name=="header") {
             $assetLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreAssetLocation");
-            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$assetLocation}backtotop.css\" />\n";
-            $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$assetLocation}backtotop.js\"></script>\n";
+            $output = "<link rel=\"stylesheet\" media=\"all\" href=\"{$assetLocation}backtotop.css\" />\n";
+            $output .= "<script defer=\"defer\" src=\"{$assetLocation}backtotop.js\"></script>\n";
         }
         if ($name=="footer") {
             $output = "<div><a href=\"#\" id=\"backtotop\" title=\"".$this->yellow->language->getTextHtml("backtotopLabel")."\" aria-label=\"".$this->yellow->language->getTextHtml("backtotopLabel")."\">".$this->yellow->language->getTextHtml("backtotopLabel")."</a></div>\n";
